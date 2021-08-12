@@ -6,6 +6,7 @@ body {
 }
 
 header {
+  $min-height: 10px;
   font-size: 2em;
   color: $caption-color;
   text-align: center;
@@ -15,6 +16,7 @@ header {
   width: 90%;
   margin: 20px auto;
   position: relative;
+  height: calc(2px + $min-height);
 
   small {
     font-size: .5em;
